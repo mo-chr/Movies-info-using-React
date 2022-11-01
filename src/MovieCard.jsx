@@ -11,7 +11,7 @@ const MovieCard = ({ movie }) => {
           src={
             movie.Poster !== `N/A`
               ? movie.Poster
-              : "https://via.placeholder.com/400"
+              : "https://via.placeholder.com/400x400?text=No+Cover"
           }
           alt="Poster"
         ></img>
