@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard.jsx";
+import logo from "./media/linkedIn.svg";
 
 const API_URL = "https://www.omdbapi.com/?apikey=c481a974";
 const App = () => {
@@ -25,7 +27,13 @@ const App = () => {
   return (
     <div className="app">
       <h1>Dream Movies</h1>
-
+      <a
+        href="https://www.linkedin.com/in/mohammad-c/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="linkedIn" src={logo} alt="Logo"></img>
+      </a>
       <div className="search">
         <input
           placeholder="Search for movies"
