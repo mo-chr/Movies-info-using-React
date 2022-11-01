@@ -14,7 +14,7 @@ const App = () => {
     setMovies(data.Search);
   };
   useEffect(() => {
-    searchMovies("Spiderman");
+    searchMovies("Movie");
   }, []);
   const handleKeyDown = (event) => {
     console.log("User pressed: ", event.key);
