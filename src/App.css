@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
 }
 
 :root {
@@ -26,6 +27,8 @@ justify-content: center;
 }
 
 h1 {
+    font-family: 'Public Sans', sans-serif;
+        font-weight: 700;
     font-size: 3rem;
     letter-spacing: 0.9px;
     background: linear-gradient(90deg,
@@ -160,18 +163,18 @@ padding: 1.5rem 1.75rem;
 }
 
 .movie div:nth-of-type(3) span {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Public Sans', sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: #f0f0f0;
+    color: #b1b1b1;
 }
 
 .movie div:nth-of-type(3) h3 {
     margin-top: 5px;
-    font-family: "Roboto Slab", serif;
-    color: #f9d3b4;
+    font-family: 'Public Sans', sans-serif;
+        color: white;
 }
 
 .movie:hover div:nth-of-type(2) {
