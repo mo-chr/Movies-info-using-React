@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Thank you for Checking out my projects!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To check out this project in its live version, please refer to [This Link](https://dreammovies.herokuapp.com/)
 
 ## Available Scripts
 
